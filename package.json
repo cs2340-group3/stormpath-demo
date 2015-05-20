@@ -1,5 +1,5 @@
 {
-  "name": "Demo of Stormpath",
+  "name": "stormpath-demo",
   "version": "1.0.0",
   "description": "Demo of Stormpath",
   "main": "app.js",

@@ -6,8 +6,8 @@ app.set('views', './views');
 app.set('view engine', 'jade');
 app.use(stormpath.init(app, {
     apiKeyFile: './.apiKey',
-    application: 'https://api.stormpath.com/v1/applications/2tENPogLo26sjfUeNx7bFI',
-    secretKey: 'pWdf1QUj1zbxOeH/vdWONckm6Se+gaT719GpwgtN8zE'
+    application: 'https://api.stormpath.com/v1/applications/xxx', // your application url
+    secretKey: 'some random long string' // your secret API Key
 }));
 
 app.get('/', function(req, res) {
